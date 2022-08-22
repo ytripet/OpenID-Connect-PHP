@@ -741,7 +741,7 @@ class OpenIDConnectClient
 
         $headers = [];
 
-        $grant_type = 'password';
+        $grant_type = 'client_credentials';
 
         $post_data = [
             'grant_type'    => $grant_type,
